@@ -14,7 +14,7 @@ namespace DotNetBenchmark.Unit.Tests
             int expectedResult = a + b;
 
             // Act
-            int result = MathCustom.Sum(a, b);
+            int result = MathCustom.SumCustom(a, b);
 
             // Assert
             Assert.Equal(expectedResult, result);

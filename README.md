@@ -5,23 +5,21 @@ Xunit Tests
 
 Goal of the project is to benchmark code
 
+Using [https://benchmarkdotnet.org/](https://benchmarkdotnet.org/)
+
 ### Getting Started
 
 Default .NET worker service application
 Console app
 
+From solution root:
 
-Running application
+Benchmark application
 ```
-dotnet run --project .\DotNetBenchmark.WorkerService\DotNetBenchmark.WorkerService.csproj
+dotnet run -p .\DotNetBenchmark.WorkerService\DotNetBenchmark.WorkerService.csproj -c Release
 ```
 
 Test application
 ```
 dotnet test
-```
-
-Benchmark application
-```
-TBD
 ```
