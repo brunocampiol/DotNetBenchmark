@@ -13,7 +13,7 @@ Console app
 
 Running application
 ```
-dotnet run --project .\DotNetBenchmark.WorkerService\DotNetBenchmark.WorkerService.csproj^C
+dotnet run --project .\DotNetBenchmark.WorkerService\DotNetBenchmark.WorkerService.csproj
 ```
 
 Test application
